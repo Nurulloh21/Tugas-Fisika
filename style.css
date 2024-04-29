@@ -20,4 +20,5 @@ body {
 
 .color {
   color: red;
+  position: absolute;
 }
