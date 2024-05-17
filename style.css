@@ -7,7 +7,11 @@ body {
 .bg-nav {
   background-color: #1a2e3e !important;
 }
-
+.navbar-nav{
+  position: absolute;
+  left: 0; 
+  right: 0; 
+}
 .itim-off {
   font-family: "Itim", cursive;
   font-weight: 400;
