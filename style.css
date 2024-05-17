@@ -1,13 +1,18 @@
 body {
   margin: 0;
   padding: 0;
+  background-color: #101f2b !important;
+}
+
+.bg-nav {
+  background-color: #1a2e3e !important;
 }
 
 .itim-off {
   font-family: "Itim", cursive;
   font-weight: 400;
   font-style: normal;
-  color: #737373 !important;
+  color: #ffffff !important;
 }
 
 .fs-48 {
