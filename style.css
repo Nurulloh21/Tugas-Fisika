@@ -1,18 +1,16 @@
-body {
+body {  
   margin: 0;
   padding: 0;
   background-color: #101f2b !important;
   font-family: "Itim", cursive !important;
 }
-
+nav {
+  position: fixed;
+}
 .bg-nav {
   background-color: #1a2e3e !important;
 }
-.navbar-nav {
-  position: absolute;
-  left: 0;
-  right: 0;
-}
+
 .itim-off {
   font-family: "Itim", cursive;
   font-weight: 400;
@@ -111,4 +109,26 @@ body {
   .w-lg-20 {
     width: 20% !important;
   }
+}
+
+/* Gw taro kode bikinan gw di bwh ya dev nnti lu rapihin :v */
+.row {
+  padding: 15vh 5vw;
+}
+.btn-secondary{
+  background-color: #B8B8B8 !important;
+  border: none !important;
+  border-radius: 100px !important;
+  padding: 0.5rem 1rem !important;
+}
+.start-button{
+  margin-top: 10vh;
+  align-items: center;
+  text-align: center;
+}
+.gambar-judul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
