@@ -6,11 +6,19 @@ body {
 }
 nav {
   position: fixed;
+  overflow-y: hidden;
 }
+.navbar-nav{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+} 
 .bg-nav {
   background-color: #1a2e3e !important;
 }
-
+.inactive{
+  filter: brightness(100);
+}
 .itim-off {
   font-family: "Itim", cursive;
   font-weight: 400;
@@ -131,4 +139,15 @@ nav {
   justify-content: center;
   align-items: center;
   text-align: center;
+}
+
+/* buat transisi */
+p{
+  opacity: 0;
+  filter: blur(2px);
+  transition: all 0.5s;
+}
+.show{
+  opacity: 1;
+  filter: none;
 }
