@@ -1,4 +1,4 @@
-body {  
+body {
   margin: 0;
   padding: 0;
   background-color: #101f2b !important;
@@ -8,15 +8,15 @@ nav {
   position: fixed;
   overflow-y: hidden;
 }
-.navbar-nav{
+.navbar-nav {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-} 
+}
 .bg-nav {
   background-color: #1a2e3e !important;
 }
-.inactive{
+.inactive {
   filter: brightness(100);
 }
 .itim-off {
@@ -123,18 +123,26 @@ nav {
 .row {
   padding: 15vh 5vw;
 }
-.btn-secondary{
-  background-color: #B8B8B8 !important;
+.btn-secondary {
+  background-color: #b8b8b8 !important;
   border: none !important;
   border-radius: 100px !important;
   padding: 0.5rem 1rem !important;
 }
-.start-button{
+
+.btn-secondary:hover {
+  background-color: #fc8416 !important;
+  border: none !important;
+  border-radius: 100px !important;
+  padding: 0.5rem 1rem !important;
+}
+
+.start-button {
   margin-top: 10vh;
   align-items: center;
   text-align: center;
 }
-.gambar-judul{
+.gambar-judul {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -142,12 +150,12 @@ nav {
 }
 
 /* buat transisi */
-p{
+p {
   opacity: 0;
   filter: blur(2px);
   transition: all 0.5s;
 }
-.show{
+.show {
   opacity: 1;
   filter: none;
 }
